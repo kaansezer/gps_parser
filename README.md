@@ -12,7 +12,7 @@ The code has been verified on an STM32 project built with STM32CubeIDE (HAL and 
 * **Configurable checksum** – verify, ignore or auto-correct  
 * Ready-to-use **STM32 HAL & LL** reference project  
 
----
+
 
 ## 🚀 Quick Start (STM32CubeIDE · HAL)
 
@@ -30,7 +30,9 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
     }
 }
 
- Directory Layout
+```
+
+## ✨ Directory Layout
 gps_parser/
 ├── inc/BN220.h         ← public API: structs & prototypes
 ├── src/BN220.c         ← parser implementation
