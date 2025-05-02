@@ -31,11 +31,3 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 }
 
 ```
-
-## ✨ Directory Layout
-gps_parser/
-├── inc/BN220.h         ← public API: structs & prototypes
-├── src/BN220.c         ← parser implementation
-└── examples/
-    ├── stm32_hal/      ← CubeIDE project (DMA + IRQ)
-    └── linux_cli/      ← POSIX serial-port sample
